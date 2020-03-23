@@ -1,0 +1,33 @@
+2020-03-23 00:01:35.627  INFO 14256 --- [main] com.xjjjh.SpringbootApplicationTests     : Starting SpringbootApplicationTests on xjh-PC with PID 14256 (started by xjh in D:\IdeaIU\universityHospitalReimbursementSystem)
+2020-03-23 00:01:35.644  INFO 14256 --- [main] com.xjjjh.SpringbootApplicationTests     : No active profile set, falling back to default profiles: default
+2020-03-23 00:01:37.248  INFO 14256 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-23 00:01:37.254  INFO 14256 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-03-23 00:01:37.331  INFO 14256 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 43ms. Found 0 Redis repository interfaces.
+2020-03-23 00:01:38.121  INFO 14256 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-23 00:01:40.731  INFO 14256 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-23 00:01:41.762  INFO 14256 --- [main] com.xjjjh.SpringbootApplicationTests     : Started SpringbootApplicationTests in 7.293 seconds (JVM running for 11.259)
+2020-03-23 00:01:42.464  INFO 14256 --- [main] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2020-03-23 00:01:42.468  INFO 14256 --- [main] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2020-03-23 00:01:44.263  INFO 14256 --- [main] c.xjjjh.service.impl.StudentServiceImpl  : 查询MySQL数据库
+2020-03-23 00:01:44.317  INFO 14256 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-03-23 00:01:45.426  INFO 14256 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-03-23 00:01:45.550  INFO 14256 --- [main] c.xjjjh.service.impl.StudentServiceImpl  : 并把查询的结果存入Redis中
+2020-03-23 00:01:45.823  INFO 14256 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-23 00:01:45.973  INFO 14256 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-03-23 00:01:46.003  INFO 14256 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-03-23 00:04:55.391  INFO 8688 --- [main] com.xjjjh.SpringbootApplicationTests     : Starting SpringbootApplicationTests on xjh-PC with PID 8688 (started by xjh in D:\IdeaIU\universityHospitalReimbursementSystem)
+2020-03-23 00:04:55.394  INFO 8688 --- [main] com.xjjjh.SpringbootApplicationTests     : No active profile set, falling back to default profiles: default
+2020-03-23 00:04:56.618  INFO 8688 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-23 00:04:56.622  INFO 8688 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-03-23 00:04:56.675  INFO 8688 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 28ms. Found 0 Redis repository interfaces.
+2020-03-23 00:04:57.405  INFO 8688 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-23 00:04:59.708  INFO 8688 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-23 00:05:00.767  INFO 8688 --- [main] com.xjjjh.SpringbootApplicationTests     : Started SpringbootApplicationTests in 7.181 seconds (JVM running for 9.408)
+2020-03-23 00:05:01.173  INFO 8688 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-03-23 00:05:02.742  INFO 8688 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-03-23 00:05:02.834  INFO 8688 --- [main] c.xjjjh.service.impl.StudentServiceImpl  : 修改成功！
+2020-03-23 00:05:03.264  INFO 8688 --- [main] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2020-03-23 00:05:03.267  INFO 8688 --- [main] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2020-03-23 00:05:04.580  INFO 8688 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-23 00:05:04.827  INFO 8688 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-03-23 00:05:04.841  INFO 8688 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

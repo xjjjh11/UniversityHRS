@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>学生认证</title>
+<!--    <script th:src="@{/js/jquery-1.8.0.min.js}"></script>-->
+</head>
+<body>
+<h2>学生认证</h2>
+<form action="/register" method="post">
+    姓名:<input type="text",id="name"><br>
+    学院:<input type="text",id="academy"><br>
+    班级:<input type="text",id="sClass"><br>
+    学号:<input type="text",id="number" th:placeholder="学号长度为12位"><br>
+    +点击上传身份证正面:<input type="file",id="sIdFront"><br>
+    +点击上传身份证反面:<input type="file",id="sIdReverse"><br>
+    <input type="submit" th:value="确认">
+</form>
+<h1>falseFlag</h1>
+</body>
+</html>
